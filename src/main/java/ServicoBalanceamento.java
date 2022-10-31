@@ -1,10 +1,10 @@
 public class ServicoBalanceamento implements IServico {
 
     public String executar() {
-        return "Balanceamento efetivada";
+        return "Balanceamento efetivado";
     }
 
     public String cancelar() {
-        return "Balanceamento cancelada";
+        return "Balanceamento cancelado";
     }
 }

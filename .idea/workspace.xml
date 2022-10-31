@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="500dfc0f-898e-4b2a-a0e5-108cf50bab03" name="Changes" comment="Caso de testes corrigido.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServicoPintura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ServicoPinturaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServicoAlinhamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServicoAlinhamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ServicoFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServicoFactoryTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="500dfc0f-898e-4b2a-a0e5-108cf50bab03" name="Changes" comment="Casos de testes corrigidos." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667239955613</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Casos de testes corrigidos.">
+      <created>1667241454816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667241454816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +183,7 @@
     <MESSAGE value="classes criadas" />
     <MESSAGE value="Caso de testes criados." />
     <MESSAGE value="Caso de testes corrigido." />
-    <option name="LAST_COMMIT_MESSAGE" value="Caso de testes corrigido." />
+    <MESSAGE value="Casos de testes corrigidos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Casos de testes corrigidos." />
   </component>
 </project>

@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="500dfc0f-898e-4b2a-a0e5-108cf50bab03" name="Changes" comment="classes criadas">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ServicoRevisao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ServicoBalanceamentoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ServicoFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ServicoRevisaoTest.java" afterDir="false" />
+    <list default="true" id="500dfc0f-898e-4b2a-a0e5-108cf50bab03" name="Changes" comment="Caso de testes corrigido.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServicoPintura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ServicoPinturaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServicoBalanceamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServicoBalanceamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServicoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServicoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServicoAlinhamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServicoAlinhamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ServicoFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServicoFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ServicoBalanceamentoTest and 2 more">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="ServicoAlinhamentoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dcc078---padraofectorymethod" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServicoAlinhamentoTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServicoBalanceamentoTest and 2 more" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dcc078---padraofectorymethod" />
       <option name="TEST_OBJECT" value="PATTERN" />
@@ -73,34 +81,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServicoBalanceamentoTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dcc078---padraofectorymethod" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ServicoBalanceamentoTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServicoFactoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dcc078---padraofectorymethod" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ServicoFactoryTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServicoFactoryTest.deveRetornarExcecaoParaServicoInexistente" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dcc078---padraofectorymethod" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ServicoFactoryTest" />
-      <option name="METHOD_NAME" value="deveRetornarExcecaoParaServicoInexistente" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,13 +104,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dcc078---padraofectorymethod" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ServicoBalanceamentoTest and 2 more" />
-        <item itemvalue="TestNG.ServicoBalanceamentoTest" />
-        <item itemvalue="TestNG.ServicoFactoryTest.deveRetornarExcecaoParaServicoInvalido" />
-        <item itemvalue="TestNG.ServicoFactoryTest.deveRetornarExcecaoParaServicoInexistente" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.ServicoAlinhamentoTest" />
         <item itemvalue="TestNG.ServicoFactoryTest" />
+        <item itemvalue="TestNG.ServicoFactoryTest.deveRetornarExcecaoParaServicoInvalido" />
+        <item itemvalue="TestNG.ServicoBalanceamentoTest and 2 more" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666747459247</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Caso de testes criados.">
+      <created>1667239849905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667239849905</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Caso de testes corrigido.">
+      <created>1667239955613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667239955613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +180,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Arquivo criado" />
     <MESSAGE value="classes criadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes criadas" />
+    <MESSAGE value="Caso de testes criados." />
+    <MESSAGE value="Caso de testes corrigido." />
+    <option name="LAST_COMMIT_MESSAGE" value="Caso de testes corrigido." />
   </component>
 </project>

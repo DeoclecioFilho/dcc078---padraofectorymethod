@@ -1,11 +1,11 @@
-public class ServicoAlinhamento {
+public class ServicoAlinhamento implements IServico{
 
 
         public String executar() {
-            return "Alinhamento efetivada";
+            return "Alinhamento efetivado";
         }
 
         public String cancelar() {
-            return "Alinhamento cancelada";
+            return "Alinhamento cancelado";
         }
     }

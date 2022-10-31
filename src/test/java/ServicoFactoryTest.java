@@ -19,7 +19,7 @@ public class ServicoFactoryTest {
     @Test
     void deveRetornarExcecaoParaServicoInvalido() {
         try {
-            IServico servico = ServicoFactory.obterServico("Alinhamento");
+            IServico servico = ServicoFactory.obterServico("Pintura");
             fail();
         } catch (IllegalArgumentException e) {
             assertEquals("Serviço inválido", e.getMessage());
